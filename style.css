@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+}
+.lead{
+    text-align: center;
+    height: 10vh;
+    background-color:rgb(63, 82, 248);
+}
+.lead h1{
+    font-size: 45px;
+    font-family: 'Nunito Sans', sans-serif;
+    color:white;
+    padding-top: 15px;
+    
+}
+.scores{
+    margin-top:3px;
+    height:45vh;
+    background-color:rgb(63, 82, 248) ;
+    display: flex;
+    justify-content: center;
+    border-end-end-radius: 70px;
+    border-end-start-radius: 70px;
+    margin-bottom: 18px;
+}
+.scores section{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 18px 30px;
+}
+.circle{
+    background-color: rgb(123, 134, 226);
+    height:35px;
+    width:35px;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.span1{
+    color: white;
+}
+
+.no2{
+    height:160px;
+    width:160px;
+    border-radius:50%;
+    border: 5px solid white;
+    background-color: rgb(123, 134, 226);
+}
+
+.no1{
+    height:214.86px;
+    width:214.86px;
+    border-radius:50%;
+    border: 6px solid white;
+    background-color: rgb(123, 134, 226);
+}
+.rect{
+    background-color: rgb(123, 134, 226);
+    height: 32px;
+    width: 152px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rect span{
+    color: white;
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.bar {
+    margin: 5px 0;
+    background-color:rgb(150, 159, 235);
+    height:7.38vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bar section {
+    height:100%;
+    display: flex;
+    justify-content: safe;
+    align-items: center;
+    
+}
+
+.gola{
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    border: 2px solid white;
+    background-color: rgb(123, 134, 226);
+
+}
+
+.right{
+    padding-right: 200px;
+    font-size: 30px;
+}
+
+.left{
+    font-size: 30px;
+    width:400px;
+    padding-left: 45px;
+}
+
+.left div{
+    color:rgb(48, 43, 43);
+    height:100%;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+}
